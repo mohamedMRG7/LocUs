@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "354886870036",
+    "firebase_url": "https://locus-dbfff.firebaseio.com",
+    "project_id": "locus-dbfff",
+    "storage_bucket": "locus-dbfff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354886870036:android:ceaf9312fd3c4f08",
+        "android_client_info": {
+          "package_name": "com.happy.magdy.LocUs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354886870036-cen0ko1pn8v3qavmh5d9c5e3sh449hb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3UpwqB9sHgEKJimyHgM3bZl58Mg7l50I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

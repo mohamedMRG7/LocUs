@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+   <android.support.v7.widget.CardView
+       android:id="@+id/card"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+    <ImageView
+       android:id="@+id/img_place"
+       android:layout_width="match_parent"
+        android:scaleType="fitXY"
+       android:layout_height="150dp" />
+
+
+
+       <TextView
+           android:id="@+id/txt_placeName"
+           android:layout_below="@id/img_place"
+           android:layout_width="wrap_content"
+           android:textStyle="bold"
+           android:layout_height="wrap_content"
+           android:text="@string/app_name"
+           android:textSize="30sp"
+           android:textColor="#000"/>
+         <TextView
+             android:id="@+id/txt_placeRegion"
+             android:layout_below="@id/txt_placeName"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/app_name"
+             android:textSize="20sp"
+             android:textColor="#000"/>
+      <ImageView
+          android:id="@+id/img_internetAvalability"
+          android:layout_below="@id/txt_placeName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"
+          android:src="@drawable/ic_wifi_black_36dp"
+          />
+
+         <TextView
+             android:id="@+id/txt_internetAvalability"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="15sp"
+             android:text="AVAILABLE"
+             android:layout_marginRight="30dp"
+             android:layout_marginEnd="40dp"
+             android:layout_marginTop="9dp"
+             android:layout_alignParentEnd="true"
+             android:layout_alignParentRight="true"
+             android:layout_alignTop="@+id/img_internetAvalability"
+             android:layout_toLeftOf="@+id/img_internetAvalability"
+             android:layout_toStartOf="@+id/img_internetAvalability"
+             android:textColor="@color/screen2"
+             />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/img_internetAvalability"
+              android:text="More Details..."
+              android:textSize="18sp"
+              android:textStyle="italic"
+              android:gravity="center"
+              android:textColor="#000"
+              />
+      </RelativeLayout>
+
+
+
+
+   </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
