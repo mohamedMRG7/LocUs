@@ -4,27 +4,25 @@
     <string name="action_settings">Settings</string>
 
 
-
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
 
-    <array name="drowerlistTitels" >
+    <array name="drowerlistTitels">
 
-        <item >الصفحه الرئيسيه </item>
-        <item >عندك مكان ؟ </item>
-        <item > مكانك المفضل </item>
-        <item > قوول رأيك </item>
+        <item>الصفحه الرئيسيه</item>
+        <item>عندك مكان ؟</item>
+        <item>مكانك المفضل</item>
+        <item>قوول رأيك</item>
 
 
     </array>
-    <integer-array name="drowerlistImages" >
+    <integer-array name="drowerlistImages">
 
-        <item >@drawable/ic_action_event</item>
-        <item >@drawable/ic_action_location_found </item>
-        <item >@drawable/ic_action_favorite </item>
-        <item >@drawable/ic_action_volume_on </item>
-
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_location_found</item>
+        <item>@drawable/ic_action_favorite</item>
+        <item>@drawable/ic_action_volume_on</item>
 
 
     </integer-array>

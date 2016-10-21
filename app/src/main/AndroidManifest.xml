@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.happy.magdy.LocUs">
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name="com.happy.magdy.LocUs.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,10 +18,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.happy.magdy.LocUs.Main2Activity"
+            android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.happy.magdy.LocUs.Splash">
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,15 +29,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.happy.magdy.LocUs.Specification"
+            android:name=".Specification"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity android:name="com.happy.magdy.LocUs.Recycle">
-
-        </activity>
-        <activity android:name="com.happy.magdy.LocUs.details"
-            ></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Recycle"></activity>
+        <activity android:name=".details" />
+        <activity android:name=".HavePlace"></activity>
     </application>
 
 </manifest>
